@@ -1,0 +1,9 @@
+.content-wrapper{
+    
+    margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 15px;
+    gap: 15px;
+    }

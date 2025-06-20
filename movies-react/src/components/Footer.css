@@ -1,0 +1,12 @@
+.footer{  background-color:rgba(35,37,74,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(158, 158, 158);
+    border-top: solid hsla(0, 3%, 51%, 0.5) 2px;
+
+
+}

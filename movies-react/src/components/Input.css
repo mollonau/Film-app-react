@@ -1,0 +1,22 @@
+
+Input{
+    width: 20%;
+    height: 25px;
+    background-color: rgba(55,59,105,255);
+    border: 2px solid rgba(0, 0, 0, 0.2); 
+    padding: 10px 25px  10px 25px;
+    color: rgb(175, 174, 174);
+    font-size: 20px;
+    border-radius: 50px;
+}
+Input:hover{background-color:rgba(75, 79, 130, 255);
+
+}
+
+#input::placeholder {
+    color: rgb(175, 174, 174);
+    font-style: italic; 
+    font-size: 20px; 
+    opacity: 0.8; 
+    letter-spacing: 2px;
+}

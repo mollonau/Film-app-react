@@ -1,0 +1,23 @@
+.search-bar {
+    background-color: rgba(55, 59, 105, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky; /* Keeps it at the top */
+    top: 0; /* Ensures it sticks at the very top */
+    z-index: 1000; /* Keeps it above other elements */
+    gap: 25px;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+   color: bisque;
+}
+.lang select{background-color: rgb(157, 157, 201);}
